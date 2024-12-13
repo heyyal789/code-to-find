@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Page to Word",
+  "version": "1.0",
+  "description": "Export current page to Word file",
+  "permissions": ["activeTab", "downloads"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Export to Word",
+    "default_icon": "icon.png"
+  }
+}
+
